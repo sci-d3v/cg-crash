@@ -18,5 +18,4 @@ documentation/
 *.dvi
 
 Vulkan/
-Tests/
 P2-Geometric_primitives-Vulkan/

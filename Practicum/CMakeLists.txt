@@ -6,3 +6,4 @@ add_subdirectory(common)
 
 # Include project subdirectories
 add_subdirectory(P2-Geometric_primitives)
+add_subdirectory(P3-Texture_mapping)

@@ -5,6 +5,14 @@ find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 find_package(glm REQUIRED)
 
+# Same third_party/ as the repo root. Must be set before include(FetchContent).
+# Does not override a value already stored in an existing CMake cache.
+cmake_path(SET _fetchcontent_base NORMALIZE
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../../third_party")
+set(FETCHCONTENT_BASE_DIR "${_fetchcontent_base}"
+    CACHE PATH "FetchContent cache outside the build tree")
+unset(_fetchcontent_base)
+
 include(FetchContent)
 
 FetchContent_Declare(

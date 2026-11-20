@@ -1,0 +1,25 @@
+{
+  "camera": {
+    "eye": [0, 0, 2],
+    "target": [0, 0, 0],
+    "up": [0, 1, 0],
+    "fovDeg": 70,
+    "zNear": 0.3,
+    "zFar": 100
+  },
+  "transform": {
+    "scale": [1, 1, 1],
+    "axis": [0, 1, 0],
+    "angularSpeed": 0.785398
+  },
+  "light": {
+    "intensity": [0.9, 0.9, 0.9],
+    "orbitRadius": 10,
+    "orbitHeight": 1
+  },
+  "material": {
+    "ka": [0.1, 0.1, 0.1],
+    "ks": [0.2, 0.2, 0.2],
+    "shininess": 1
+  }
+}

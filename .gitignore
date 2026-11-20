@@ -1,5 +1,6 @@
 build/
 .cache/
+third_party/
 .idea/
 documentation/
 **/images/*.pdf
@@ -16,6 +17,3 @@ documentation/
 *.fdb_latexmk
 *.fls
 *.dvi
-
-Vulkan/
-P2-Geometric_primitives-Vulkan/
